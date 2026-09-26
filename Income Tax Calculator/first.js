@@ -26,6 +26,7 @@ form.addEventListener('submit',(e)=>{
     }
 
     result.textContent = `Total Tax: ${TotalTax}`;
+    
     form.reset();
 
 })
